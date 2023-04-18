@@ -1,0 +1,26 @@
+Currency Converter
+This program allows you to convert between different currencies using live exchange rates fetched from the Open Exchange Rates API.
+
+Installation
+Install Python 3 from https://www.python.org/downloads/.
+Install PyCharm from https://www.jetbrains.com/pycharm/download/.
+Open PyCharm and create a new project.
+In PyCharm, go to File > Settings > Project:<project_name> > Project Interpreter.
+Click the "+" button to add a new package.
+Type requests in the search bar and install the package.
+Usage
+Open the currency_converter.py file in PyCharm.
+Run the file.
+Enter the amount you want to convert in the Enter Amount here field.
+Select the currency you want to convert from in the From Currency dropdown list.
+Select the currency you want to convert to in the To Currency dropdown list.
+Click the Convert! button to convert the currency.
+The converted amount will be displayed in the Result box.
+To reset the form, click the Reset button.
+Data Fetching
+The program fetches the latest currency exchange rates from the Open Exchange Rates API. The requests package is used to make a GET request to the API endpoint, and the response is returned as a JSON object. The currency exchange rates are stored in the rates field of the JSON object.
+Libraries Used
+tkinter: for creating the GUI
+requests: for making HTTP requests to the Open Exchange Rates API
+ttk: for creating stylized widgets in the GUI
+To install these libraries, you can use PyCharm's package installer.
